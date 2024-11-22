@@ -6,11 +6,65 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Quiz - Assignment 3</title>
+    <link rel="stylesheet" href="./css/quiz.css" />
+    <title>Quiz - Individual Assignment 3</title>
   </head>
 
   <body>
+    <main>
+      <form class="form-quiz">
+        <!-- Questions Container -->
+        <div class="questions-container">
+          <div class="quiz-header">
+            <h2 class="quiz-progression"></h2>
+            <h1 class="quiz-question"></h1>
+          </div>
+          <!-- Question Options -->
+          <div class="question-container">
+            <button class="question-container__alternative">
+              <input
+                type="radio"
+                name="question"
+                value=""
+                class="question-alternative-input"
+              />
+              <label for="" class="question-alternative-1__label"></label>
+            </button>
+
+            <button class="question-container__alternative">
+              <input
+                type="radio"
+                name="question"
+                value=""
+                class="question-alternative-input"
+              />
+              <label for="" class="question-alternative-2__label"></label>
+            </button>
+
+            <button class="question-container__alternative">
+              <input
+                type="radio"
+                name="question"
+                value=""
+                class="question-alternative-input"
+              />
+              <label for="" class="question-alternative-3__label"></label>
+            </button>
+
+            <button class="question-container__alternative">
+              <input
+                type="radio"
+                name="question"
+                value=""
+                class="question-alternative-input"
+              />
+              <label for="" class="question-alternative-4__label"></label>
+            </button>
+          </div>
+          <button class="button__next-question">Next Question</button>
+        </div>
+      </form>
+    </main>
     <script src="./js/app.js"></script>
   </body>
 </html>
