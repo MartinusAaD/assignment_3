@@ -1,4 +1,30 @@
-Questions:
+# Assignment_2
+
+## Project Information
+
+The website is for Harry Potter fans who would like to test their knowledge of the world. The user is provided a question with 4 options where 1 is correct. Upon interacting with an option, the user can continue to the next by clicking the button. Once all questions are answered, the user will be told how many they have answered correctly.
+
+The quiz is made with an array for easy access to implement new questions.
+
+If i had more time, I would have liked to get the display questions/answers to work.
+
+## Navigation
+
+The only way to navigate the site is through the one button provided at the bottom of the container.
+
+## Contact Info
+
+Creator can be contacted at maraad97@gmail.com
+
+## Git repository
+
+https://github.com/MartinusAaD/assignment_3.git
+
+## Netlify
+
+https://maraad-assignment-3.netlify.app
+
+## Questions:
 
 1. How many Harry Potter books are there?
 
